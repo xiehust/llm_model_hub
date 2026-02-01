@@ -154,7 +154,7 @@ class TrainingJobExcutor(BaseModel):
             doc['lora_alpha'] = int(job_payload['lora_alpha'])
             
             ## temp test `ddp_find_unused_parameters` needs to be set as False for LoRA in DDP training.
-            doc['ddp_find_unused_parameters'] = False
+            doc['ddp_find_unused_parameters'] = True
         else:
             doc['finetuning_type'] = 'full'
         
