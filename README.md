@@ -30,7 +30,7 @@ Model Hub V2是提供一站式的模型微调，部署，调试的无代码可�
 - 请先在能访问github的电脑环境中执行以下命令下载代码，然后把代码打包成zip文件，上传到ec2服务器的/home/ubuntu/下。
 - ⚠️注意：需要使用--recurse-submodule下载代码
 ```bash
-git clone --recurse-submodule https://github.com/aws-samples/llm_model_hub.git
+git clone --recurse-submodule https://github.com/xiehust/llm_model_hub.git
 ```
 - zip项目并上传至第一步创建的ec2服务器的/home/ubuntu目录下
 ```bash
@@ -127,7 +127,7 @@ bash cn-region-deploy.sh
 - 请先在能访问github的环境中执行以下命令下载代码，然后把代码打包成zip文件，上传到ec2服务器的/home/ubuntu/下。
 - 使用--recurse-submodule下载代码  
 ```bash
-git clone --recurse-submodule https://github.com/aws-samples/llm_model_hub.git
+git clone --recurse-submodule https://github.com/xiehust/llm_model_hub.git
 ```
 ## 2.ssh登陆到ec2服务器，解压到/home/ubuntu/目录
 ```sh

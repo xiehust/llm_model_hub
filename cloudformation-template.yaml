@@ -126,7 +126,7 @@ Resources:
               # Clone repository
               echo "Cloning repository"
               cd /home/ubuntu/ || error_exit "Failed to change to ubuntu home directory"
-              sudo -u ubuntu git clone --recurse-submodule https://github.com/aws-samples/llm_model_hub.git || error_exit "Failed to clone repository"
+              sudo -u ubuntu git clone --recurse-submodule https://github.com/xiehust/llm_model_hub.git || error_exit "Failed to clone repository"
               cd /home/ubuntu/llm_model_hub || error_exit "Failed to change to repository directory"
               sudo -u ubuntu yarn install || error_exit "Failed to run yarn install"
 
